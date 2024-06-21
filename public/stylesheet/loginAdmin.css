@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+    background-color: rgb(222, 230, 230);
+}
+
+.card {
+    height: 85vh;
+    width: 160vh;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.div-img {
+    position: absolute;
+    background-color: #103cbe;
+    height: 480px;
+    width: 500px;
+    margin-top: 10px;
+    right: 10px;
+    border-radius: 20px;
+}
+
+.admin-img {
+    height: 200px;
+    margin-left: 150px;
+    margin-top: 90px;
+}
+
+.heading {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 700;
+    margin-left: 140px;
+    margin-top: 30px;
+}
+
+.small {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    margin-top: -20px;
+    margin-left: 170px;
+}
+
+.form-floating {
+    width: 300px;
+    font-size: medium;
+}
+
+.form-div {
+    height: fit-content;
+    margin-top: 80px;
+}
+
+.title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.btn-login {
+    margin-top: 30px;
+    background-color: #224ed1;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    font-weight: 500;
+}
+
+.btn-login:hover {
+    margin-top: 30px;
+    background-color: #ffffff;
+    color: #0b3bcc;
+    border: 2px solid #224ed1;
+}
+
+.alert {
+    width: 300px;
+}

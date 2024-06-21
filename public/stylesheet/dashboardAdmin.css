@@ -1,0 +1,251 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap");
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100%;
+    background: #ffffff;
+    background: linear-gradient(to top left, #d1dfed, #00162d);
+}
+
+.nav {
+    background-color: #103bbe;
+    border-radius: 20px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 40px;
+}
+
+.nav div img {
+    width: 30px;
+    margin-left: 23px;
+}
+
+.logout {
+    margin-top: 20px;
+}
+
+.home-btn button {
+    color: white;
+}
+.home-btn {
+    position: fixed;
+    top: -40px;
+    right: 10px;
+    background-color: #224ed1;
+    color: white;
+    border: 2px solid #224ed1;
+    margin-top: 50px;
+    border-radius: 15px;
+    color: white;
+}
+
+.home-btn:hover {
+    background-color: white;
+    color: #224ed1;
+    border: 2px solid #224ed1;
+}
+
+.saying-admin p {
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+}
+
+.saying-admin {
+    position: absolute;
+    left: 240px;
+    top: 80px;
+}
+
+.welcome-div {
+    background-color: #103bbe;
+    height: 200px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: white;
+}
+
+.profile-div {
+    background-color: #262629;
+    border-radius: 20px;
+    margin-left: 10px;
+    max-height: 200px;
+    font-size: 15px;
+}
+
+.admin-logo {
+    width: 170px;
+    margin-left: 270px;
+}
+
+.welcome-text {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.left-container {
+    margin-top: 60px;
+    margin-left: auto;
+    /* margin-left: 200px; */
+}
+
+.one {
+    position: absolute;
+    left: 200px;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(104, 145, 232);
+    border-radius: 50%;
+    filter: blur(1px);
+}
+
+.two {
+    position: absolute;
+    left: 450px;
+    top: 190px;
+    background-color: rgb(184, 212, 235);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    filter: blur(2px);
+}
+
+.three {
+    position: absolute;
+    left: 170px;
+    top: 100px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    filter: blur(2px);
+}
+
+.pending-users {
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    /* overflow-y: auto; */
+    background-color: #252526;
+    height: 250px;
+    max-height: 300px;
+}
+
+.users {
+    background-color: #252526;
+    color: white;
+    border-radius: 15px;
+    overflow-y: auto;
+    max-height: 300px;
+    /* padding: 5px; */
+    /* margin-right: 10px; */
+}
+
+.row {
+    margin-bottom: 15px;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+}
+
+.pending-users::-webkit-scrollbar {
+    width: 7px;
+    /* margin-left: 3px; */
+}
+
+.pending-users::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+.pending-users::-webkit-scrollbar-thumb:hover {
+    background-color: #5e5e59;
+}
+
+.remove {
+    border-radius: 10px;
+}
+
+td .btn-details {
+    background-color: rgb(239, 239, 28);
+    border: 2px solid rgb(239, 239, 28);
+    font-weight: 700;
+    color: white;
+}
+
+td .btn-details:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+.rectangle {
+    position: absolute;
+    width: 40px;
+    height: 140px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    left: 510px;
+    top: 100px;
+    transform: rotate(25deg);
+    filter: blur(2px);
+}
+
+.pending-suppliers {
+    margin-right: 15px;
+}
+
+.profile {
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.bold {
+    font-weight: 700;
+    margin: 10px;
+}
+
+.bold p {
+    padding: 8px;
+}
+
+.edit-img {
+    position: absolute;
+    top: 80px;
+    right: 180px;
+    width: 20px;
+}
+
+.supplier-btn {
+    margin: 14px;
+}
+
+.new .btn {
+    width: 140px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.new .btn p {
+    margin-left: auto;
+}
